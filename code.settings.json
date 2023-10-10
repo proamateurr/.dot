@@ -1,0 +1,24 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": { "path": "C:\\Program Files\\Git\\bin\\bash.exe" }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.hover.enabled": true,
+  "files.autoSave": "afterDelay",
+  "workbench.colorTheme": "Default High Contrast",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.guides.bracketPairs": "active",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "prettier.singleQuote": true,
+  "editor.formatOnSave": true,
+  "indentRainbow.indicatorStyle": "light",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  }
+}

@@ -1,0 +1,1 @@
+for ahk in /c/Users/jakef/dev/Snippets/AutoHotKeyScripts/*.ahk ; do ln -s $ahk '/c/Users/jakef/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/'$(basename $ahk) ; done

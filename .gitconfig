@@ -1,0 +1,29 @@
+[user]
+	email = eduffreitas@outlook.com
+	name = Eduardo Freitas
+[core]
+	symlinks = true
+	autocrlf = true
+	eol = lf
+    autocrlf = false
+[color]
+	interactive = true
+	ui = auto
+[pack]
+	packSizeLimit = 2g
+[credential]
+	helper = manager
+[help]
+	format = html
+[diff "astextplain"]
+	textconv = astextplain
+[init]
+	defaultBranch = main
+[push]
+    default = current
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    #smudge = git-lfs smudge --skip --%f
+    smudge = git-lfs smudge --skip --skip
+    process = git-lfs filter-process --skip
+    required = true
